@@ -1,2 +1,2 @@
 #!/bin/bash
-main(){printf CFILE=0-main.c}
+gcc -E $CFILE -o c
