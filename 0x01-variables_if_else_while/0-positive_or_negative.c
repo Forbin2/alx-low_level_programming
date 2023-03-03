@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- * main - print n
+ * main - print valiable n using printf
+ *
  * Return: 0
 */
 int main(void)
 {
-	for (int n = 0; n < 0; n > 0; i++);
-        
-	printf("print %d,\n");
-
+	int n;
+		printf("%d\n", n);
 	return (0);
 }
