@@ -6,7 +6,24 @@
 */
 int main(void)
 {
-	int n;
-		printf("%d\n", n);
+	double n;
+
+	n = 'double';
+
+
+	if (n > 0)
+	{
+		printf("%f\n is positive", n);
+	}
+	if (n == 0)
+	{
+		printf("%f\n is zero", n);
+	}
+
+	if (n < 0)
+	{
+		printf("%f\n is negative", n);
+	}
+
 	return (0);
 }

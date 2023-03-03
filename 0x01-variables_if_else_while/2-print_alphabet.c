@@ -7,9 +7,7 @@
 
 int main(void)
 {
-	char alphabet[] = a;
-	for (a <= z,
-			a++);
-		putchar("%s\n", a);
+	const char alphabet[] = 'a-Z';
+		putchar("%c\n", 'a-Z');
 	return (0);
 }
