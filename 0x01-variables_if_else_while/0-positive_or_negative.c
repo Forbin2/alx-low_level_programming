@@ -6,9 +6,10 @@
 */
 int main(void)
 {
-	double n;
+	float n;
 
-	n = 0;
+	printf("n: ");
+	scanf("%f", &n);
 
 
 	if (n == 0)
@@ -21,7 +22,7 @@ int main(void)
 		printf("%f\n is negative", n);
 	}
 
-	else
+	if (n > 0)
 	{
 		printf("%f\n is positive", n);
 	}
