@@ -8,13 +8,9 @@ int main(void)
 {
 	double n;
 
-	n = 'double';
+	n = 0;
 
 
-	if (n > 0)
-	{
-		printf("%f\n is positive", n);
-	}
 	if (n == 0)
 	{
 		printf("%f\n is zero", n);
@@ -23,6 +19,11 @@ int main(void)
 	if (n < 0)
 	{
 		printf("%f\n is negative", n);
+	}
+
+	else
+	{
+		printf("%f\n is positive", n);
 	}
 
 	return (0);
