@@ -6,25 +6,25 @@
 */
 int main(void)
 {
-	float n;
+	int n;
 
 	printf("n: ");
-	scanf("%f", &n);
+	scanf("%d", &n);
 
 
 	if (n == 0)
 	{
-		printf("%f\n is zero", n);
+		printf("%d\n is zero", n);
 	}
 
 	if (n < 0)
 	{
-		printf("%f\n is negative", n);
+		printf("%d\n is negative", n);
 	}
 
 	if (n > 0)
 	{
-		printf("%f\n is positive", n);
+		printf("%d\n is positive", n);
 	}
 
 	return (0);
