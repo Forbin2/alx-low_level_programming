@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - print alphabet character using putchar
  *
@@ -7,7 +8,8 @@
 
 int main(void)
 {
-	const char alphabet[] = 'a-Z';
-		putchar("%c\n", 'a-Z');
+	char alphabet[26] = "a-z";
+
+	printf("%s\n", alphabet);
 	return (0);
 }
