@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	int i = 10;
+	int i = 9;
 
-	for (i = 10; i <= 10; i--)
+	for (i = 9; i <= 9; i++)
 		printf("%d\n", i);
 	return (0);
 }
